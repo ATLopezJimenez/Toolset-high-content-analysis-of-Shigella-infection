@@ -6,10 +6,12 @@ This repository holds ImageJ macros and python code written by Ana Teresa López
 
 Description of each individual item is here below:
 
-1.
-2.
+1. ImageJ macro: "segmentation_bacteria_squarecrop"
+     This macro segments rod shaped bacteria based on fluorescence, and then saves a square crop of the bacteria with additional channels and the segmented mask.
+     This macro is to be used to generate images to train a CNN or to be classified by a trained CNN.
 3.
 4.
+5.
 
 
 
