@@ -49,6 +49,10 @@ Description of each individual item is here below:
 10. **Apply_model_to_classify_SETP7+_vs_SEPT7_associated_bacteria.ipynb**
      This colab notebook enables the classification single vs. clump bacteria using the trained "model_classification_SEPT7positive_vs_negative.hdf5".
      Images as the ones generated with the python code "Normalise_tool.py" can be used as input.
+
+11. **Sorting_files_after_classification.py**
+     This python code sorts images obtained with ImageJ macro: "Segmentation_bacteria_square_crop.ijm" in two different folders, depending on the .txt file containing the classifications results obtained with "Apply_model_to_classify_single_vs_clump_bacteria.ipynb" or "Apply_model_to_classify_SETP7+_vs_SEPT7_associated_bacteria.ipynb" ("model_classification_single_vs_clump.hdf5" and "model_classification_SEPT7positive_vs_negative.hdf5", respectively).
+ 
     
 8. **ImageJ macro: "Bacteria_measurements.ijm"**
      This ImageJ macro measures diverse parameters on a fluorescent channel indicated by the user, within the defined bacterial mask.
