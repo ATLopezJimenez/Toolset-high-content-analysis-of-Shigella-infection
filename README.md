@@ -42,6 +42,10 @@ Description of each individual item is here below:
      Input images to be used have to be processed using the python code X.
      This model can be used as a pre-trained model to apply Transfer Learning to a novel CNN with different cytoskeletal components recruited to bacteria.
 
+8. **
+
+9. **
+
 8. **ImageJ macro: "Bacteria_measurements.ijm"**
      This ImageJ macro measures diverse parameters on a fluorescent channel indicated by the user, within the defined bacterial mask.
      This ImageJ macro uses image outputs from the ImageJ macro "Segmentation_bacteria_square_crop.ijm"
