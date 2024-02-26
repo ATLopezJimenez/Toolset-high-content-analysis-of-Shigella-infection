@@ -42,10 +42,14 @@ Description of each individual item is here below:
      Input images to be used have to be processed using the python code X.
      This model can be used as a pre-trained model to apply Transfer Learning to a novel CNN with different cytoskeletal components recruited to bacteria.
 
-8. **
+8. **Apply_model_to_classify_single_vs_clump_bacteria.ipynb**
+     This colab notebook enables the classification single vs. clump bacteria using the trained "model_classification_single_vs_clump.hdf5".
+     Images as the ones generated with the ImageJ macro "Processing_for_single_vs_clump_classification.ijm" can be used as input.
 
-9. **
-
+10. **Apply_model_to_classify_SETP7+_vs_SEPT7_associated_bacteria.ipynb**
+     This colab notebook enables the classification single vs. clump bacteria using the trained "model_classification_SEPT7positive_vs_negative.hdf5".
+     Images as the ones generated with the python code "Normalise_tool.py" can be used as input.
+    
 8. **ImageJ macro: "Bacteria_measurements.ijm"**
      This ImageJ macro measures diverse parameters on a fluorescent channel indicated by the user, within the defined bacterial mask.
      This ImageJ macro uses image outputs from the ImageJ macro "Segmentation_bacteria_square_crop.ijm"
