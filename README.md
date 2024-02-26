@@ -23,17 +23,21 @@ Description of each individual item is here below:
      This Python code uses image outputs from the ImageJ macro "Segmentation_bacteria_square_crop.ijm".
      It denoises the channel with of the protein of interest recruited to the bacteria using band pass filtering.
      It generates a 32 bit image with 3 channels: the channel with the bacterial fluorescence, the channel with the recruited protein (denoised), and the channel with the bacterial mask.
-
+   
+4. **ImageJ macro: "Dataset_parameters.ijm"**
+     This ImageJ macro uses image outputs from the Python code "Denoise_tool.py",
+     It returns dataset parameters that are required for normalisation, as required in "Normalise_tool.py"
+   
 5. **Python code: "Normalise_tool.py"**
-     This Python code uses image outputs from the Python code "Denoise_tool.py" and requires the max value of the dataset after denoising.
+     This Python code uses image outputs from the Python code "Denoise_tool.py" and requires the max value of the dataset after denoising. This max value can be obtained using the ImageJ macro "Dataset_parameters.ijm".
      It normalises the fluorescence from the channel with the recruited protein of interest.
      It generates a RGB image with to train a CNN or to be classified as SEPT7+ or SEPT7- by the trained "model_classification_SEPT7positive_vs_negative.hdf5".
 
-7. **Trained model: "model_classification_single_vs_clump.hdf5"**
+6. **Trained model: "model_classification_single_vs_clump.hdf5"**
      This is a trained model to classify isolated bacteria vs. bacteria in clumps (any rod shape bacteria).
      Input images to be used have to be processed using the ImageJ macro "Processing_for_single_vs_clump_classification.ijm" described in (4).
 
-8. **Trained model: "model_classification_SEPT7positive_vs_negative.hdf5"**
+7. **Trained model: "model_classification_SEPT7positive_vs_negative.hdf5"**
      This is a trained model to classify SETP7+ vs. SETP7- associated S. flexneri (or any alternative rod shape bacteria).
      Input images to be used have to be processed using the python code X.
      This model can be used as a pre-trained model to apply Transfer Learning to a novel CNN with different cytoskeletal components recruited to bacteria.
