@@ -2,7 +2,7 @@
 
 
 // This macro has been developped and used in the pre-print: 
-// High-content superresolution microscopy and deep learning assisted analysis reveals host and bacterial heterogeneity during Shigella infection. Ana T. López-Jiménez, Dominik Brokatzky, Kamla Pillay, Tyrese Williams, Gizem Özbaykal Güler and Serge Mostowy (2024)
+// High-content high-resolution microscopy and deep learning assisted analysis reveals host and bacterial heterogeneity during Shigella infection. Ana T. López-Jiménez, Dominik Brokatzky, Kamla Pillay, Tyrese Williams, Gizem Özbaykal Güler and Serge Mostowy (2024)
  
 //--------------------DESCRIPTION--------------------//
 // This ImageJ macro segments rod shaped bacteria based on fluorescence, and then saves a square crop of the bacteria with additional channels and the segmented mask.
