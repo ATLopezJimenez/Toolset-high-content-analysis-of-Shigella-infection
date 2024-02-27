@@ -1,7 +1,7 @@
 // ImageJ macro by Ana Teresa Lopez Jimenez @ LSHTM
 
 // This macro has been developped and used in the pre-print: 
-// High-content superresolution microscopy and deep learning assisted analysis reveals host and bacterial heterogeneity during Shigella infection. Ana T. López-Jiménez, Dominik Brokatzky, Kamla Pillay, Tyrese Williams, Gizem Özbaykal Güler and Serge Mostowy (2024)
+// High-content high-resolution microscopy and deep learning assisted analysis reveals host and bacterial heterogeneity during Shigella infection. Ana T. López-Jiménez, Dominik Brokatzky, Kamla Pillay, Tyrese Williams, Gizem Özbaykal Güler and Serge Mostowy (2024)
  
 //--------------------DESCRIPTION--------------------//
 // This ImageJ macro generates 8-bit images (greyscale) to be classified as single or clump by the trained CNN model "model_classification_single_vs_clump.hdf5"
