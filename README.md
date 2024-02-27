@@ -66,3 +66,9 @@ Description of each individual item is here below:
 
 
 For further questions, please contact anat.lopezjimenez@gmail.com
+
+
+
+![Untitled-1](https://github.com/ATLopezJimenez/Toolset-high-content-analysis-of-Shigella-infection/assets/128931828/ce7e4c22-dfed-4f65-9e03-404bbd484c52)
+
+
