@@ -2,7 +2,7 @@
 
 # This code was developed by Ana T. López Jiménez @ LSHTM.
 # This code has been developped and used in the pre-print:
-# High-content superresolution microscopy and deep learning assisted analysis reveals host and bacterial heterogeneity during Shigella infection.
+# High-content high-resolution microscopy and deep learning assisted analysis reveals host and bacterial heterogeneity during Shigella infection.
 # Ana T. López-Jiménez, Dominik Brokatzky, Kamla Pillay, Tyrese Williams, Gizem Özbaykal Güler and Serge Mostowy (2024)
 
 
