@@ -1,7 +1,7 @@
 // ImageJ macro by Ana Teresa Lopez Jimenez @ LSHTM
 
 // This macro has been developped and used in the pre-print: 
-// High-content superresolution microscopy and deep learning assisted analysis reveals host and bacterial heterogeneity during Shigella infection. Ana T. López-Jiménez, Dominik Brokatzky, Kamla Pillay, Tyrese Williams, Gizem Özbaykal Güler and Serge Mostowy (2024)
+// High-content high-resolution microscopy and deep learning assisted analysis reveals host and bacterial heterogeneity during Shigella infection. Ana T. López-Jiménez, Dominik Brokatzky, Kamla Pillay, Tyrese Williams, Gizem Özbaykal Güler and Serge Mostowy (2024)
  
 //--------------------DESCRIPTION--------------------//
 // This ImageJ macro measures fluorescence intensity of the bacteria in a channel determined by the user.
@@ -78,7 +78,8 @@ selectWindow(imagemask);
 run("Set Measurements...", "area mean standard shape integrated median area_fraction stack display redirect=["+ imagemask +"] decimal=3");
 setOption("BlackBackground", true);
 run("Convert to Mask");
-run("Analyze Particles...", "size=0-50 circularity=0.00-1.00 exclude add");
+run("Analyze Particles...", "size=0-50 circularity=0.00-1.00 exclude add");
+
 run("Set Measurements...", "area mean standard shape integrated median area_fraction stack display redirect=["+ imagebact +"] decimal=3");
 roiManager("Measure"); 
 roiManager("Delete");
