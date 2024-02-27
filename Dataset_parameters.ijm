@@ -1,7 +1,7 @@
 // ImageJ macro by Ana Teresa Lopez Jimenez @ LSHTM
 
 // This macro has been developped and used in the pre-print: 
-// High-content superresolution microscopy and deep learning assisted analysis reveals host and bacterial heterogeneity during Shigella infection. Ana T. López-Jiménez, Dominik Brokatzky, Kamla Pillay, Tyrese Williams, Gizem Özbaykal Güler and Serge Mostowy (2024)
+// High-content high-resolution microscopy and deep learning assisted analysis reveals host and bacterial heterogeneity during Shigella infection. Ana T. López-Jiménez, Dominik Brokatzky, Kamla Pillay, Tyrese Williams, Gizem Özbaykal Güler and Serge Mostowy (2024)
  
 //--------------------DESCRIPTION--------------------//
 // This ImageJ macro analyses the denoised images obtained after processing with the Python "Denoise_tool.py" 
