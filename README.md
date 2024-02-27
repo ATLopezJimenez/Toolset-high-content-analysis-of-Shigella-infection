@@ -33,10 +33,10 @@ Description of each individual item is here below.
      It normalises the fluorescence from the channel with the recruited protein of interest.
      It generates a RGB image with to train a CNN or to be classified as SEPT7+ or SEPT7- by the trained "model_classification_SEPT7_recruitment.hdf5".
 
-7. **Colab notebook: "Training_of_CNN_to_classify_single_vs_clump.ipynb"**
+7. **Jupyter notebook: "Training_of_CNN_to_classify_single_vs_clump.ipynb"**
      This Colab notebook was used to trained a CNN with the annotated dataset for singles and clumps and generate the "model_classification_single_vs_clump.hdf5" 
    
-8. **Colab notebook: "Training_of_CNN_to_classify_SEPT7_recruitment.ipynb"**
+8. **Jupyter notebook: "Training_of_CNN_to_classify_SEPT7_recruitment.ipynb"**
      This Colab notebook was used to trained a CNN with the annotated dataset for SETP7+ and SEPT7- associated bacteria and generate the "model_classification_SEPT7_recruitment.hdf5" 
 
 9. **Trained model: "model_classification_single_vs_clump.hdf5"**
@@ -47,11 +47,11 @@ Description of each individual item is here below.
      This is a trained model to classify SETP7+ vs. SETP7- associated S. flexneri (or any alternative rod shape bacteria).
      This model can be used as a pre-trained model to apply Transfer Learning to a novel CNN to classify different cytoskeletal components recruited to bacteria.
 
-11. **Colab notebook: "Apply_model_to_classify_single_vs_clump_bacteria.ipynb"**
+11. **Jupyter notebook: "Apply_model_to_classify_single_vs_clump_bacteria.ipynb"**
      This colab notebook enables the classification single vs. clump bacteria using the trained "model_classification_single_vs_clump.hdf5" (10).
      Input images to be used can be obtained with the ImageJ macro: "Segmentation_bacteria_square_crop.ijm" (1) and processed using the ImageJ macro: "Processing_for_single_vs_clump_classification.ijm" (3)
     
-12. **Colab notebook: "Apply_model_to_classify_SETP7_recruitment.ipynb"**
+12. **Jupyter notebook: "Apply_model_to_classify_SETP7_recruitment.ipynb"**
      This colab notebook enables the classification single vs. clump bacteria using the trained "model_classification_SEPT7_recruitment.hdf5".
      Input images to be used can be obtained with the ImageJ macro: "Segmentation_bacteria_square_crop.ijm" (1) and processed using the Python code: "Denoise_tool.py" (4) and "Normalise_tool.py" (6).
 
